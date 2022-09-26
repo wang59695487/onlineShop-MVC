@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "type": "mssql.local",
+      "connectionId": "Data/IdentityDbConnect/ConnectionString",
+      "secretStore": "LocalSecretsFile"
+    },
+    "mssql2": {
+      "type": "mssql.local",
+      "connectionId": "Data/DbConnect/ConnectionString",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}
